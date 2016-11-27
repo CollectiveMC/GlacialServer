@@ -63,8 +63,8 @@
 			<url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
 		</repository>
 		<repository>
-			<id>releases</id>
-			<url>http://nexus.cyberpwn.org/content/groups/public/</url>
+			<id>phantom</id>
+			<url>https://raw.githubusercontent.com/PhantomAPI/Phantom/master/repository/</url>
 		</repository>
 	</repositories>
 	<dependencies>
@@ -96,7 +96,7 @@
 		<dependency>
 			<groupId>org.cyberpwn</groupId>
 			<artifactId>phantom</artifactId>
-			<version>N4</version>
+			<version>K4</version>
 		</dependency>
 	</dependencies>
 </project>
