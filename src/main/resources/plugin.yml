@@ -1,0 +1,79 @@
+name: GlacialServer
+main: com.glacialrush.server.GlacialServer
+version: 1.8
+depend: [GlacialAPI]
+commands:
+  region:
+    aliases: [reg, rg]
+  map:
+    aliases: [m, mp]
+  game:
+    aliases: [g, gme]
+  brush:
+    aliases: [b, br, bruh]
+  language:
+    aliases: [lang, l, lng, la]
+  teleport:
+    aliases: [tp]
+  teleporthere:
+    aliases: [tphere, tph]
+  sun:
+    aliases: [sunny]
+  leave:
+    aliases: [quit, q, qqq, qq, rq, ragequit]
+  rain:
+    aliases: [snow, downfall]
+  day:
+    aliases: [norain, clearsky]
+  night:
+    aliases: [nightfall]
+  developer:
+    aliases: [dev, db, d]
+  remote:
+    aliases: [rem]
+  message:
+    aliases: [msg, pm]
+  reply:
+    aliases: [r]
+  gamemode:
+    aliases: [gamemode]
+  gamemodec:
+    aliases: [gmc]
+  gamemodea:
+    aliases: [gma]
+  gamemodes:
+    aliases: [gms]
+  rank:
+    aliases: [rnk, rk]
+  skill:
+    aliases: [sk, exp, xp, experience, ski, skills]
+  tutorial:
+    aliases: [tut, helptutorial, showhelp, credits]
+  spectate:
+    aliases: [fly, youtube]
+  givexp:
+    aliases: [gxp, givex]
+  giveskill:
+    aliases: [gskill, gsk, givesk]
+  giveshards:
+    aliases: [gsh, givesh, gshards, gshard, giveshard]
+  respawn:
+    aliases: [resupply, resup, resp, rsp, deploy, redeploy]
+  squad:
+    aliases: [s, sq, sd]
+  point:
+    aliases: [target, tg, wp, waypoint, beacon, bcn]
+  invite:
+    aliases: [inv]
+  objective:
+    aliases: [o, obj]
+  help:
+    aliases: [?, h, helpop]
+  stats:
+    aliases: [stat, sts]
+  ping:
+    aliases: [pn, png, pong, lag, latency]
+  hub:
+    aliases: [spawn, spn, lobby]
+  action:
+    aliases: [ii, battle]
